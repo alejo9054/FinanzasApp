@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="deT-hA-PAh">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Page View Controller-->
+        <scene sceneID="Co7-vP-SqT">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Uy0-ih-1CT" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m08-2q-YK5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-28" y="77"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BkO-Rf-FcN">
+            <objects>
+                <viewController id="d76-Eo-j4L" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wS4-2e-D9e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d4V-cL-EIl">
+                                <rect key="frame" x="107" y="208" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="8Dh-2u-bMq"/>
+                                    <constraint firstAttribute="height" constant="200" id="Urx-JH-5Hz"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b8T-31-MBY">
+                                <rect key="frame" x="20" y="428" width="374" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
+                                <color key="textColor" name="GreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TzF-l4-DuZ">
+                                <rect key="frame" x="20" y="479" width="374" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="b8T-31-MBY" firstAttribute="top" secondItem="d4V-cL-EIl" secondAttribute="bottom" constant="20" id="Faa-MO-GYo"/>
+                            <constraint firstItem="TzF-l4-DuZ" firstAttribute="leading" secondItem="EsH-FP-FAR" secondAttribute="leading" constant="20" id="HcW-AI-HiJ"/>
+                            <constraint firstItem="TzF-l4-DuZ" firstAttribute="top" secondItem="b8T-31-MBY" secondAttribute="bottom" constant="8" id="NX9-qP-7Fj"/>
+                            <constraint firstItem="d4V-cL-EIl" firstAttribute="centerX" secondItem="wS4-2e-D9e" secondAttribute="centerX" id="Ubx-lk-6Fi"/>
+                            <constraint firstItem="EsH-FP-FAR" firstAttribute="trailing" secondItem="b8T-31-MBY" secondAttribute="trailing" constant="20" id="c2u-vd-LLt"/>
+                            <constraint firstItem="EsH-FP-FAR" firstAttribute="trailing" secondItem="TzF-l4-DuZ" secondAttribute="trailing" constant="20" id="mBY-Mg-fOf"/>
+                            <constraint firstItem="b8T-31-MBY" firstAttribute="leading" secondItem="EsH-FP-FAR" secondAttribute="leading" constant="20" id="uhu-JE-OYm"/>
+                            <constraint firstItem="d4V-cL-EIl" firstAttribute="centerY" secondItem="wS4-2e-D9e" secondAttribute="centerY" constant="-140" id="zFR-Wy-lld"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EsH-FP-FAR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YpO-uf-0PS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="829" y="80"/>
+        </scene>
+        <!--On Boarding Container View Controller-->
+        <scene sceneID="DNH-Bf-1X0">
+            <objects>
+                <viewController id="deT-hA-PAh" customClass="OnBoardingContainerViewController" customModule="alejoFinanzas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WPd-R0-jhb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R2Y-3d-8Bk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <connections>
+                                    <segue destination="Uy0-ih-1CT" kind="embed" identifier="openOnBoarding" id="TFM-Ib-V3t"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wka-tv-xhD">
+                                <rect key="frame" x="20" y="797" width="374" height="45"/>
+                                <color key="backgroundColor" name="GreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="UZy-hP-sYo"/>
+                                </constraints>
+                                <state key="normal" title="Iniciar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                        <size key="value" width="0.0" height="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderUIColor">
+                                        <color key="value" name="GreenShadow"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="A3y-iE-Vqe">
+                                <rect key="frame" x="187.5" y="677" width="39" height="37"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="R2Y-3d-8Bk" firstAttribute="top" secondItem="WPd-R0-jhb" secondAttribute="top" id="3Qm-gV-atd"/>
+                            <constraint firstItem="Wka-tv-xhD" firstAttribute="leading" secondItem="lfg-lT-DfW" secondAttribute="leading" constant="20" id="7Su-52-fXO"/>
+                            <constraint firstItem="lfg-lT-DfW" firstAttribute="bottom" secondItem="Wka-tv-xhD" secondAttribute="bottom" constant="20" id="G8h-gY-dcD"/>
+                            <constraint firstItem="lfg-lT-DfW" firstAttribute="trailing" secondItem="Wka-tv-xhD" secondAttribute="trailing" constant="20" id="Hee-5G-gPL"/>
+                            <constraint firstItem="R2Y-3d-8Bk" firstAttribute="leading" secondItem="WPd-R0-jhb" secondAttribute="leading" id="U6K-Cy-RTb"/>
+                            <constraint firstItem="Wka-tv-xhD" firstAttribute="top" secondItem="A3y-iE-Vqe" secondAttribute="bottom" constant="83" id="Wsd-Ie-t5W"/>
+                            <constraint firstAttribute="trailing" secondItem="R2Y-3d-8Bk" secondAttribute="trailing" id="voJ-nu-rqL"/>
+                            <constraint firstItem="A3y-iE-Vqe" firstAttribute="centerX" secondItem="WPd-R0-jhb" secondAttribute="centerX" id="xfK-xN-YRK"/>
+                            <constraint firstAttribute="bottom" secondItem="R2Y-3d-8Bk" secondAttribute="bottom" id="ykv-uB-BUc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lfg-lT-DfW"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="A3y-iE-Vqe" id="ejt-L9-2HK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6L9-Gv-pVR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-917" y="80"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="GreenColor">
+            <color red="0.62352941176470589" green="0.74117647058823533" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GreenShadow">
+            <color red="0.31764705882352939" green="0.39215686274509803" blue="0.12941176470588237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

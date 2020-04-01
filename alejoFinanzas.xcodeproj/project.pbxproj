@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1555B2092434B50800579E5A /* onBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1555B2082434B50800579E5A /* onBoardingViewController.swift */; };
 		155EF289241FE46300527867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155EF288241FE46300527867 /* AppDelegate.swift */; };
 		155EF28B241FE46300527867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155EF28A241FE46300527867 /* SceneDelegate.swift */; };
 		155EF28D241FE46300527867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155EF28C241FE46300527867 /* ViewController.swift */; };
@@ -15,6 +16,38 @@
 		155EF295241FE46500527867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155EF293241FE46500527867 /* LaunchScreen.storyboard */; };
 		155EF2A0241FE46600527867 /* alejoFinanzasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155EF29F241FE46600527867 /* alejoFinanzasTests.swift */; };
 		155EF2AB241FE46600527867 /* alejoFinanzasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155EF2AA241FE46600527867 /* alejoFinanzasUITests.swift */; };
+		155EF2BA241FEBB600527867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155EF28C241FE46300527867 /* ViewController.swift */; };
+		155EF2BB241FEBB600527867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155EF288241FE46300527867 /* AppDelegate.swift */; };
+		155EF2BC241FEBB600527867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155EF28A241FE46300527867 /* SceneDelegate.swift */; };
+		155EF2BF241FEBB600527867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155EF293241FE46500527867 /* LaunchScreen.storyboard */; };
+		155EF2C0241FEBB600527867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155EF291241FE46500527867 /* Assets.xcassets */; };
+		155EF2C1241FEBB600527867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155EF28E241FE46300527867 /* Main.storyboard */; };
+		15613A692422679D00B64637 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15613A682422679D00B64637 /* Transactions.storyboard */; };
+		15613A6E24226A6500B64637 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15613A6D24226A6500B64637 /* Profile.storyboard */; };
+		15613A7024226B1B00B64637 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15613A6F24226B1B00B64637 /* Add.storyboard */; };
+		15613A7224226B7000B64637 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15613A7124226B7000B64637 /* Budget.storyboard */; };
+		15613A7424226BC200B64637 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15613A7324226BC200B64637 /* Statistics.storyboard */; };
+		156C83542428E32C009F8F3B /* Signin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156C83532428E32C009F8F3B /* Signin.storyboard */; };
+		1573208B242B7E0D00CD5FCC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1573208A242B7E0D00CD5FCC /* Colors.xcassets */; };
+		1573209E242B83D100CD5FCC /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 1573208E242B83D100CD5FCC /* instagram.png */; };
+		1573209F242B83D100CD5FCC /* vk.png in Resources */ = {isa = PBXBuildFile; fileRef = 1573208F242B83D100CD5FCC /* vk.png */; };
+		157320A0242B83D100CD5FCC /* deviantart.png in Resources */ = {isa = PBXBuildFile; fileRef = 15732090242B83D100CD5FCC /* deviantart.png */; };
+		157320A1242B83D100CD5FCC /* lastfm.png in Resources */ = {isa = PBXBuildFile; fileRef = 15732091242B83D100CD5FCC /* lastfm.png */; };
+		157320A2242B83D100CD5FCC /* tumblr.png in Resources */ = {isa = PBXBuildFile; fileRef = 15732092242B83D100CD5FCC /* tumblr.png */; };
+		157320A3242B83D100CD5FCC /* behance.png in Resources */ = {isa = PBXBuildFile; fileRef = 15732093242B83D100CD5FCC /* behance.png */; };
+		157320A4242B83D100CD5FCC /* flickr.png in Resources */ = {isa = PBXBuildFile; fileRef = 15732094242B83D100CD5FCC /* flickr.png */; };
+		157320A5242B83D100CD5FCC /* soundcloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 15732095242B83D100CD5FCC /* soundcloud.png */; };
+		157320A6242B83D100CD5FCC /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 15732096242B83D100CD5FCC /* twitter.png */; };
+		157320A7242B83D100CD5FCC /* linkedin.png in Resources */ = {isa = PBXBuildFile; fileRef = 15732097242B83D100CD5FCC /* linkedin.png */; };
+		157320A8242B83D100CD5FCC /* google-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 15732098242B83D100CD5FCC /* google-plus.png */; };
+		157320A9242B83D100CD5FCC /* swarm.png in Resources */ = {isa = PBXBuildFile; fileRef = 15732099242B83D100CD5FCC /* swarm.png */; };
+		157320AA242B83D100CD5FCC /* badoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1573209A242B83D100CD5FCC /* badoo.png */; };
+		157320AB242B83D100CD5FCC /* dribbble.png in Resources */ = {isa = PBXBuildFile; fileRef = 1573209B242B83D100CD5FCC /* dribbble.png */; };
+		157320AC242B83D100CD5FCC /* pinterest.png in Resources */ = {isa = PBXBuildFile; fileRef = 1573209C242B83D100CD5FCC /* pinterest.png */; };
+		157320AD242B83D100CD5FCC /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 1573209D242B83D100CD5FCC /* facebook.png */; };
+		15773F11242CDD7D002C64F9 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15773F10242CDD7D002C64F9 /* Shadow.swift */; };
+		1579CA5A24339D3C00E130C6 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1579CA5924339D3C00E130C6 /* OnBoarding.storyboard */; };
+		1579CA5C24342F0800E130C6 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1579CA5B24342F0800E130C6 /* OnBoardingContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1555B2082434B50800579E5A /* onBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingViewController.swift; sourceTree = "<group>"; };
 		155EF285241FE46300527867 /* alejoFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alejoFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155EF288241FE46300527867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		155EF28A241FE46300527867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +83,34 @@
 		155EF2A6241FE46600527867 /* alejoFinanzasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alejoFinanzasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		155EF2AA241FE46600527867 /* alejoFinanzasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alejoFinanzasUITests.swift; sourceTree = "<group>"; };
 		155EF2AC241FE46600527867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		155EF2C5241FEBB600527867 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		155EF2C6241FEBB700527867 /* alejoFinanzas copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "alejoFinanzas copy-Info.plist"; path = "/Users/alejo/Desktop/alejoFinanzas/alejoFinanzas copy-Info.plist"; sourceTree = "<absolute>"; };
+		15613A682422679D00B64637 /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		15613A6D24226A6500B64637 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		15613A6F24226B1B00B64637 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		15613A7124226B7000B64637 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
+		15613A7324226BC200B64637 /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
+		156C83532428E32C009F8F3B /* Signin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signin.storyboard; sourceTree = "<group>"; };
+		1573208A242B7E0D00CD5FCC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		1573208E242B83D100CD5FCC /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
+		1573208F242B83D100CD5FCC /* vk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vk.png; sourceTree = "<group>"; };
+		15732090242B83D100CD5FCC /* deviantart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deviantart.png; sourceTree = "<group>"; };
+		15732091242B83D100CD5FCC /* lastfm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lastfm.png; sourceTree = "<group>"; };
+		15732092242B83D100CD5FCC /* tumblr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tumblr.png; sourceTree = "<group>"; };
+		15732093242B83D100CD5FCC /* behance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = behance.png; sourceTree = "<group>"; };
+		15732094242B83D100CD5FCC /* flickr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flickr.png; sourceTree = "<group>"; };
+		15732095242B83D100CD5FCC /* soundcloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soundcloud.png; sourceTree = "<group>"; };
+		15732096242B83D100CD5FCC /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		15732097242B83D100CD5FCC /* linkedin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedin.png; sourceTree = "<group>"; };
+		15732098242B83D100CD5FCC /* google-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-plus.png"; sourceTree = "<group>"; };
+		15732099242B83D100CD5FCC /* swarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swarm.png; sourceTree = "<group>"; };
+		1573209A242B83D100CD5FCC /* badoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badoo.png; sourceTree = "<group>"; };
+		1573209B242B83D100CD5FCC /* dribbble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dribbble.png; sourceTree = "<group>"; };
+		1573209C242B83D100CD5FCC /* pinterest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinterest.png; sourceTree = "<group>"; };
+		1573209D242B83D100CD5FCC /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		15773F10242CDD7D002C64F9 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		1579CA5924339D3C00E130C6 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		1579CA5B24342F0800E130C6 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +135,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		155EF2BD241FEBB600527867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,6 +152,7 @@
 				155EF29E241FE46600527867 /* alejoFinanzasTests */,
 				155EF2A9241FE46600527867 /* alejoFinanzasUITests */,
 				155EF286241FE46300527867 /* Products */,
+				155EF2C6241FEBB700527867 /* alejoFinanzas copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +162,7 @@
 				155EF285241FE46300527867 /* alejoFinanzas.app */,
 				155EF29B241FE46600527867 /* alejoFinanzasTests.xctest */,
 				155EF2A6241FE46600527867 /* alejoFinanzasUITests.xctest */,
+				155EF2C5241FEBB600527867 /* Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +170,10 @@
 		155EF287241FE46300527867 /* alejoFinanzas */ = {
 			isa = PBXGroup;
 			children = (
-				155EF288241FE46300527867 /* AppDelegate.swift */,
-				155EF28A241FE46300527867 /* SceneDelegate.swift */,
-				155EF28C241FE46300527867 /* ViewController.swift */,
-				155EF28E241FE46300527867 /* Main.storyboard */,
-				155EF291241FE46500527867 /* Assets.xcassets */,
-				155EF293241FE46500527867 /* LaunchScreen.storyboard */,
-				155EF296241FE46500527867 /* Info.plist */,
+				15773F0F242CDD15002C64F9 /* Extensions */,
+				155EF2C92420359900527867 /* Resources */,
+				155EF2C82420359100527867 /* Base */,
+				155EF2C72420358600527867 /* Application */,
 			);
 			path = alejoFinanzas;
 			sourceTree = "<group>";
@@ -126,6 +194,180 @@
 				155EF2AC241FE46600527867 /* Info.plist */,
 			);
 			path = alejoFinanzasUITests;
+			sourceTree = "<group>";
+		};
+		155EF2C72420358600527867 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				155EF2CD242035CC00527867 /* Main */,
+				155EF2CC242035BF00527867 /* Authentication */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		155EF2C82420359100527867 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				155EF28A241FE46300527867 /* SceneDelegate.swift */,
+				155EF288241FE46300527867 /* AppDelegate.swift */,
+				155EF296241FE46500527867 /* Info.plist */,
+				155EF293241FE46500527867 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		155EF2C92420359900527867 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15732089242B7DE900CD5FCC /* Colors */,
+				155EF2CB242035B200527867 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		155EF2CB242035B200527867 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1573208C242B83B800CD5FCC /* PNG */,
+				155EF291241FE46500527867 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		155EF2CC242035BF00527867 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				155EF2CF242035E000527867 /* Sing In */,
+				155EF2CE242035D400527867 /* OnBoarding */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		155EF2CD242035CC00527867 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				155EF2D22420361700527867 /* Main */,
+				15613A6C242269C400B64637 /* Statistics */,
+				15613A6B242269AC00B64637 /* Budget */,
+				15613A6A2422699300B64637 /* Add */,
+				155EF2D12420360200527867 /* Profile */,
+				155EF2D0242035F700527867 /* Transactions */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		155EF2CE242035D400527867 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				1579CA5924339D3C00E130C6 /* OnBoarding.storyboard */,
+				1579CA5B24342F0800E130C6 /* OnBoardingContainerViewController.swift */,
+				1555B2082434B50800579E5A /* onBoardingViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		155EF2CF242035E000527867 /* Sing In */ = {
+			isa = PBXGroup;
+			children = (
+				156C83532428E32C009F8F3B /* Signin.storyboard */,
+			);
+			path = "Sing In";
+			sourceTree = "<group>";
+		};
+		155EF2D0242035F700527867 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				15613A682422679D00B64637 /* Transactions.storyboard */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		155EF2D12420360200527867 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				15613A6D24226A6500B64637 /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		155EF2D22420361700527867 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				155EF28C241FE46300527867 /* ViewController.swift */,
+				155EF28E241FE46300527867 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		15613A6A2422699300B64637 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				15613A6F24226B1B00B64637 /* Add.storyboard */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		15613A6B242269AC00B64637 /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				15613A7124226B7000B64637 /* Budget.storyboard */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		15613A6C242269C400B64637 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				15613A7324226BC200B64637 /* Statistics.storyboard */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		15732089242B7DE900CD5FCC /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				1573208A242B7E0D00CD5FCC /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		1573208C242B83B800CD5FCC /* PNG */ = {
+			isa = PBXGroup;
+			children = (
+				1573208D242B83D100CD5FCC /* png */,
+			);
+			path = PNG;
+			sourceTree = "<group>";
+		};
+		1573208D242B83D100CD5FCC /* png */ = {
+			isa = PBXGroup;
+			children = (
+				1573208E242B83D100CD5FCC /* instagram.png */,
+				1573208F242B83D100CD5FCC /* vk.png */,
+				15732090242B83D100CD5FCC /* deviantart.png */,
+				15732091242B83D100CD5FCC /* lastfm.png */,
+				15732092242B83D100CD5FCC /* tumblr.png */,
+				15732093242B83D100CD5FCC /* behance.png */,
+				15732094242B83D100CD5FCC /* flickr.png */,
+				15732095242B83D100CD5FCC /* soundcloud.png */,
+				15732096242B83D100CD5FCC /* twitter.png */,
+				15732097242B83D100CD5FCC /* linkedin.png */,
+				15732098242B83D100CD5FCC /* google-plus.png */,
+				15732099242B83D100CD5FCC /* swarm.png */,
+				1573209A242B83D100CD5FCC /* badoo.png */,
+				1573209B242B83D100CD5FCC /* dribbble.png */,
+				1573209C242B83D100CD5FCC /* pinterest.png */,
+				1573209D242B83D100CD5FCC /* facebook.png */,
+			);
+			path = png;
+			sourceTree = "<group>";
+		};
+		15773F0F242CDD15002C64F9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				15773F10242CDD7D002C64F9 /* Shadow.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +426,23 @@
 			productReference = 155EF2A6241FE46600527867 /* alejoFinanzasUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		155EF2B8241FEBB600527867 /* Production */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 155EF2C2241FEBB600527867 /* Build configuration list for PBXNativeTarget "Production" */;
+			buildPhases = (
+				155EF2B9241FEBB600527867 /* Sources */,
+				155EF2BD241FEBB600527867 /* Frameworks */,
+				155EF2BE241FEBB600527867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Production;
+			productName = alejoFinanzas;
+			productReference = 155EF2C5241FEBB600527867 /* Production.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,6 +482,7 @@
 				155EF284241FE46300527867 /* alejoFinanzas */,
 				155EF29A241FE46600527867 /* alejoFinanzasTests */,
 				155EF2A5241FE46600527867 /* alejoFinanzasUITests */,
+				155EF2B8241FEBB600527867 /* Production */,
 			);
 		};
 /* End PBXProject section */
@@ -232,9 +492,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157320A4242B83D100CD5FCC /* flickr.png in Resources */,
 				155EF295241FE46500527867 /* LaunchScreen.storyboard in Resources */,
+				1573209E242B83D100CD5FCC /* instagram.png in Resources */,
+				157320A2242B83D100CD5FCC /* tumblr.png in Resources */,
+				157320AC242B83D100CD5FCC /* pinterest.png in Resources */,
 				155EF292241FE46500527867 /* Assets.xcassets in Resources */,
+				157320AB242B83D100CD5FCC /* dribbble.png in Resources */,
+				157320A3242B83D100CD5FCC /* behance.png in Resources */,
+				15613A6E24226A6500B64637 /* Profile.storyboard in Resources */,
 				155EF290241FE46300527867 /* Main.storyboard in Resources */,
+				157320A9242B83D100CD5FCC /* swarm.png in Resources */,
+				157320A8242B83D100CD5FCC /* google-plus.png in Resources */,
+				157320AA242B83D100CD5FCC /* badoo.png in Resources */,
+				15613A7024226B1B00B64637 /* Add.storyboard in Resources */,
+				157320A1242B83D100CD5FCC /* lastfm.png in Resources */,
+				1573209F242B83D100CD5FCC /* vk.png in Resources */,
+				1573208B242B7E0D00CD5FCC /* Colors.xcassets in Resources */,
+				1579CA5A24339D3C00E130C6 /* OnBoarding.storyboard in Resources */,
+				15613A7224226B7000B64637 /* Budget.storyboard in Resources */,
+				157320A6242B83D100CD5FCC /* twitter.png in Resources */,
+				156C83542428E32C009F8F3B /* Signin.storyboard in Resources */,
+				15613A692422679D00B64637 /* Transactions.storyboard in Resources */,
+				157320A5242B83D100CD5FCC /* soundcloud.png in Resources */,
+				157320A7242B83D100CD5FCC /* linkedin.png in Resources */,
+				157320AD242B83D100CD5FCC /* facebook.png in Resources */,
+				15613A7424226BC200B64637 /* Statistics.storyboard in Resources */,
+				157320A0242B83D100CD5FCC /* deviantart.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +536,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		155EF2BE241FEBB600527867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155EF2BF241FEBB600527867 /* LaunchScreen.storyboard in Resources */,
+				155EF2C0241FEBB600527867 /* Assets.xcassets in Resources */,
+				155EF2C1241FEBB600527867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -260,8 +554,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				155EF28D241FE46300527867 /* ViewController.swift in Sources */,
+				15773F11242CDD7D002C64F9 /* Shadow.swift in Sources */,
+				1579CA5C24342F0800E130C6 /* OnBoardingContainerViewController.swift in Sources */,
 				155EF289241FE46300527867 /* AppDelegate.swift in Sources */,
 				155EF28B241FE46300527867 /* SceneDelegate.swift in Sources */,
+				1555B2092434B50800579E5A /* onBoardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +575,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				155EF2AB241FE46600527867 /* alejoFinanzasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155EF2B9241FEBB600527867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155EF2BA241FEBB600527867 /* ViewController.swift in Sources */,
+				155EF2BB241FEBB600527867 /* AppDelegate.swift in Sources */,
+				155EF2BC241FEBB600527867 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +742,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = alejoFinanzas/Info.plist;
+				INFOPLIST_FILE = alejoFinanzas/Base/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +759,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = alejoFinanzas/Info.plist;
+				INFOPLIST_FILE = alejoFinanzas/Base/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -544,6 +851,42 @@
 			};
 			name = Release;
 		};
+		155EF2C3241FEBB600527867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2YV45RYZS;
+				INFOPLIST_FILE = "alejoFinanzas copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Coldevs.alejoFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		155EF2C4241FEBB600527867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2YV45RYZS;
+				INFOPLIST_FILE = "alejoFinanzas copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Coldevs.alejoFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,6 +922,15 @@
 			buildConfigurations = (
 				155EF2B6241FE46600527867 /* Debug */,
 				155EF2B7241FE46600527867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		155EF2C2241FEBB600527867 /* Build configuration list for PBXNativeTarget "Production" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155EF2C3241FEBB600527867 /* Debug */,
+				155EF2C4241FEBB600527867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
