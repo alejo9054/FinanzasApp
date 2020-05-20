@@ -3,25 +3,27 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="Qc6-Tc-S0M">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="iWx-TF-VZl" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="iWx-TF-VZl" customClass="TabBarViewController" customModule="alejoFinanzas" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qaq-e3-Kf3">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" name="TextColor"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Jzk-1e-Pya" kind="relationship" relationship="viewControllers" id="aIs-ki-lYb"/>
                         <segue destination="vlZ-iZ-uvG" kind="relationship" relationship="viewControllers" id="FDz-s2-OtC"/>
+                        <segue destination="lf3-rq-39t" kind="relationship" relationship="viewControllers" id="9e2-Jb-LGs"/>
+                        <segue destination="Jzk-1e-Pya" kind="relationship" relationship="viewControllers" id="Hwi-0y-ua5"/>
+                        <segue destination="cLM-z5-8Jo" kind="relationship" relationship="viewControllers" id="gGP-IM-7RL"/>
                         <segue destination="Eq9-CC-zgR" kind="relationship" relationship="viewControllers" id="afB-IN-dx0"/>
-                        <segue destination="lf3-rq-39t" kind="relationship" relationship="viewControllers" id="5E3-i7-URD"/>
-                        <segue destination="cLM-z5-8Jo" kind="relationship" relationship="viewControllers" id="eZe-oT-4R7"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aDg-YV-GMc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -36,7 +38,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rXS-nI-9jL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="531" y="31"/>
+            <point key="canvasLocation" x="475" y="-32"/>
         </scene>
         <!--Profile-->
         <scene sceneID="L8p-rC-3dS">
@@ -46,7 +48,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YmG-mo-1A0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="491" y="98"/>
+            <point key="canvasLocation" x="503" y="70"/>
         </scene>
         <!--Add-->
         <scene sceneID="AeL-nZ-2a4">
@@ -79,4 +81,9 @@
             <point key="canvasLocation" x="506" y="323"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="TextColor">
+            <color red="0.14117647058823529" green="0.16862745098039217" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

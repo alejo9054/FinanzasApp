@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Rqi-ui-6W9">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EmptyState" translatesAutoresizingMaskIntoConstraints="NO" id="Byk-C2-Pbq">
+                    <rect key="frame" x="55" y="226.5" width="304" height="243"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="304" id="Eac-xy-ZTW"/>
+                        <constraint firstAttribute="height" constant="243" id="PUk-eQ-PJ9"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You don´t have any transactions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjC-xa-kq9">
+                    <rect key="frame" x="20" y="485.5" width="374" height="86"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="36"/>
+                    <color key="textColor" name="GreenColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To start press the add button" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BrO-R8-tai">
+                    <rect key="frame" x="20" y="579.5" width="374" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="BrO-R8-tai" firstAttribute="top" secondItem="pjC-xa-kq9" secondAttribute="bottom" constant="8" id="6Zd-7b-3WQ"/>
+                <constraint firstItem="MXr-ww-AFi" firstAttribute="trailing" secondItem="BrO-R8-tai" secondAttribute="trailing" constant="20" id="7O7-3l-rfv"/>
+                <constraint firstItem="Byk-C2-Pbq" firstAttribute="centerX" secondItem="Rqi-ui-6W9" secondAttribute="centerX" id="Db3-9d-y2O"/>
+                <constraint firstItem="pjC-xa-kq9" firstAttribute="top" secondItem="Byk-C2-Pbq" secondAttribute="bottom" constant="16" id="RIw-e3-Rnk"/>
+                <constraint firstItem="MXr-ww-AFi" firstAttribute="trailing" secondItem="pjC-xa-kq9" secondAttribute="trailing" constant="20" id="m99-Am-h1T"/>
+                <constraint firstItem="BrO-R8-tai" firstAttribute="leading" secondItem="MXr-ww-AFi" secondAttribute="leading" constant="20" id="pEx-bh-qbS"/>
+                <constraint firstItem="Byk-C2-Pbq" firstAttribute="centerY" secondItem="Rqi-ui-6W9" secondAttribute="centerY" constant="-100" id="pu6-as-o0P"/>
+                <constraint firstItem="pjC-xa-kq9" firstAttribute="leading" secondItem="MXr-ww-AFi" secondAttribute="leading" constant="20" id="ry3-eq-XGq"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="MXr-ww-AFi"/>
+            <point key="canvasLocation" x="-585" y="-399"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="EmptyState" width="308" height="245"/>
+        <namedColor name="GreenColor">
+            <color red="0.62352941176470589" green="0.74117647058823533" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
