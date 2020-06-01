@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1555B2092434B50800579E5A /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1555B2082434B50800579E5A /* OnBoardingViewController.swift */; };
 		155BA1F02464760500C00CB6 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155BA1EF2464760500C00CB6 /* TransactionsViewController.swift */; };
+		155D003E2476F5550078BB9A /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 155D003D2476F5550078BB9A /* TransactionsCell.xib */; };
+		155D00402477180C0078BB9A /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155D003F2477180B0078BB9A /* BudgetViewController.swift */; };
 		155EF289241FE46300527867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155EF288241FE46300527867 /* AppDelegate.swift */; };
 		155EF28B241FE46300527867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155EF28A241FE46300527867 /* SceneDelegate.swift */; };
 		155EF290241FE46300527867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155EF28E241FE46300527867 /* Main.storyboard */; };
@@ -72,6 +74,8 @@
 /* Begin PBXFileReference section */
 		1555B2082434B50800579E5A /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		155BA1EF2464760500C00CB6 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		155D003D2476F5550078BB9A /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
+		155D003F2477180B0078BB9A /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		155EF285241FE46300527867 /* alejoFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alejoFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155EF288241FE46300527867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		155EF28A241FE46300527867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -286,6 +290,7 @@
 				15613A682422679D00B64637 /* Transactions.storyboard */,
 				155BA1EF2464760500C00CB6 /* TransactionsViewController.swift */,
 				15C25CCA2471A3F200DE0F47 /* EmptyState.xib */,
+				155D003D2476F5550078BB9A /* TransactionsCell.xib */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -319,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				15613A7124226B7000B64637 /* Budget.storyboard */,
+				155D003F2477180B0078BB9A /* BudgetViewController.swift */,
 			);
 			path = Budget;
 			sourceTree = "<group>";
@@ -504,6 +510,7 @@
 				155EF295241FE46500527867 /* LaunchScreen.storyboard in Resources */,
 				1573209E242B83D100CD5FCC /* instagram.png in Resources */,
 				157320A2242B83D100CD5FCC /* tumblr.png in Resources */,
+				155D003E2476F5550078BB9A /* TransactionsCell.xib in Resources */,
 				157320AC242B83D100CD5FCC /* pinterest.png in Resources */,
 				155EF292241FE46500527867 /* Assets.xcassets in Resources */,
 				157320AB242B83D100CD5FCC /* dribbble.png in Resources */,
@@ -566,6 +573,7 @@
 				1579CA5C24342F0800E130C6 /* OnBoardingContainerViewController.swift in Sources */,
 				155EF289241FE46300527867 /* AppDelegate.swift in Sources */,
 				15E20BE92472F31F000D02BE /* TabBarViewController.swift in Sources */,
+				155D00402477180C0078BB9A /* BudgetViewController.swift in Sources */,
 				15800D32243665FC00F253B5 /* OnBoardingStepsViewController.swift in Sources */,
 				155EF28B241FE46300527867 /* SceneDelegate.swift in Sources */,
 				155BA1F02464760500C00CB6 /* TransactionsViewController.swift in Sources */,
