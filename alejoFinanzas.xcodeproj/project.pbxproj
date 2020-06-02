@@ -8,9 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1555B2092434B50800579E5A /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1555B2082434B50800579E5A /* OnBoardingViewController.swift */; };
+		155ADC8F2485CB87003EF815 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 155ADC8E2485CB87003EF815 /* Cartfile */; };
+		155ADC922485E567003EF815 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155ADC912485E567003EF815 /* Lottie.framework */; };
+		155ADC932485E567003EF815 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 155ADC912485E567003EF815 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		155ADC9B2485E948003EF815 /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155ADC9A2485E948003EF815 /* Lottie.storyboard */; };
 		155BA1F02464760500C00CB6 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155BA1EF2464760500C00CB6 /* TransactionsViewController.swift */; };
 		155D003E2476F5550078BB9A /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 155D003D2476F5550078BB9A /* TransactionsCell.xib */; };
 		155D00402477180C0078BB9A /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155D003F2477180B0078BB9A /* BudgetViewController.swift */; };
+		155DEE992486A422007FE158 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155DEE982486A422007FE158 /* LottieViewController.swift */; };
+		155DEE9B2486A684007FE158 /* 23661-nasa-logo.json in Resources */ = {isa = PBXBuildFile; fileRef = 155DEE9A2486A684007FE158 /* 23661-nasa-logo.json */; };
+		155DEE9D2486B315007FE158 /* 23721-paper-plane.json in Resources */ = {isa = PBXBuildFile; fileRef = 155DEE9C2486B315007FE158 /* 23721-paper-plane.json */; };
 		155EF289241FE46300527867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155EF288241FE46300527867 /* AppDelegate.swift */; };
 		155EF28B241FE46300527867 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155EF28A241FE46300527867 /* SceneDelegate.swift */; };
 		155EF290241FE46300527867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155EF28E241FE46300527867 /* Main.storyboard */; };
@@ -71,11 +78,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		155ADC942485E567003EF815 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				155ADC932485E567003EF815 /* Lottie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1555B2082434B50800579E5A /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		155ADC8E2485CB87003EF815 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		155ADC912485E567003EF815 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
+		155ADC9A2485E948003EF815 /* Lottie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
 		155BA1EF2464760500C00CB6 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		155D003D2476F5550078BB9A /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
 		155D003F2477180B0078BB9A /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
+		155DEE982486A422007FE158 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		155DEE9A2486A684007FE158 /* 23661-nasa-logo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "23661-nasa-logo.json"; sourceTree = "<group>"; };
+		155DEE9C2486B315007FE158 /* 23721-paper-plane.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "23721-paper-plane.json"; sourceTree = "<group>"; };
 		155EF285241FE46300527867 /* alejoFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alejoFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155EF288241FE46300527867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		155EF28A241FE46300527867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155ADC922485E567003EF815 /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,14 +182,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		155ADC902485E567003EF815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				155ADC912485E567003EF815 /* Lottie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		155ADC972485E8E5003EF815 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				155DEE9C2486B315007FE158 /* 23721-paper-plane.json */,
+				155DEE9A2486A684007FE158 /* 23661-nasa-logo.json */,
+				155ADC9A2485E948003EF815 /* Lottie.storyboard */,
+				155DEE982486A422007FE158 /* LottieViewController.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		155EF27C241FE46300527867 = {
 			isa = PBXGroup;
 			children = (
+				155ADC8E2485CB87003EF815 /* Cartfile */,
 				155EF287241FE46300527867 /* alejoFinanzas */,
 				155EF29E241FE46600527867 /* alejoFinanzasTests */,
 				155EF2A9241FE46600527867 /* alejoFinanzasUITests */,
 				155EF286241FE46300527867 /* Products */,
 				155EF2C6241FEBB700527867 /* alejoFinanzas copy-Info.plist */,
+				155ADC902485E567003EF815 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -208,6 +257,7 @@
 		155EF2C72420358600527867 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				155ADC972485E8E5003EF815 /* Animation */,
 				155EF2CD242035CC00527867 /* Main */,
 				155EF2CC242035BF00527867 /* Authentication */,
 			);
@@ -394,6 +444,8 @@
 				155EF281241FE46300527867 /* Sources */,
 				155EF282241FE46300527867 /* Frameworks */,
 				155EF283241FE46300527867 /* Resources */,
+				155ADC942485E567003EF815 /* Embed Frameworks */,
+				155ADC962485E6AA003EF815 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -506,16 +558,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155ADC8F2485CB87003EF815 /* Cartfile in Resources */,
 				157320A4242B83D100CD5FCC /* flickr.png in Resources */,
 				155EF295241FE46500527867 /* LaunchScreen.storyboard in Resources */,
+				155DEE9D2486B315007FE158 /* 23721-paper-plane.json in Resources */,
 				1573209E242B83D100CD5FCC /* instagram.png in Resources */,
 				157320A2242B83D100CD5FCC /* tumblr.png in Resources */,
 				155D003E2476F5550078BB9A /* TransactionsCell.xib in Resources */,
 				157320AC242B83D100CD5FCC /* pinterest.png in Resources */,
 				155EF292241FE46500527867 /* Assets.xcassets in Resources */,
 				157320AB242B83D100CD5FCC /* dribbble.png in Resources */,
+				155ADC9B2485E948003EF815 /* Lottie.storyboard in Resources */,
 				157320A3242B83D100CD5FCC /* behance.png in Resources */,
 				15613A6E24226A6500B64637 /* Profile.storyboard in Resources */,
+				155DEE9B2486A684007FE158 /* 23661-nasa-logo.json in Resources */,
 				155EF290241FE46300527867 /* Main.storyboard in Resources */,
 				157320A9242B83D100CD5FCC /* swarm.png in Resources */,
 				15C25CCB2471A3F200DE0F47 /* EmptyState.xib in Resources */,
@@ -564,6 +620,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		155ADC962485E6AA003EF815 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Lottie.framework",
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		155EF281241FE46300527867 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -574,6 +652,7 @@
 				155EF289241FE46300527867 /* AppDelegate.swift in Sources */,
 				15E20BE92472F31F000D02BE /* TabBarViewController.swift in Sources */,
 				155D00402477180C0078BB9A /* BudgetViewController.swift in Sources */,
+				155DEE992486A422007FE158 /* LottieViewController.swift in Sources */,
 				15800D32243665FC00F253B5 /* OnBoardingStepsViewController.swift in Sources */,
 				155EF28B241FE46300527867 /* SceneDelegate.swift in Sources */,
 				155BA1F02464760500C00CB6 /* TransactionsViewController.swift in Sources */,
@@ -760,6 +839,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = alejoFinanzas/Base/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -777,6 +860,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = alejoFinanzas/Base/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

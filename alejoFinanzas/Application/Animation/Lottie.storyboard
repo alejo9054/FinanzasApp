@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ulc-F7-mdr">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Lottie View Controller-->
+        <scene sceneID="lae-kQ-7uf">
+            <objects>
+                <viewController id="Ulc-F7-mdr" customClass="LottieViewController" customModule="alejoFinanzas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u1x-sE-FuE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L2Q-WM-gLH" customClass="AnimationView">
+                                <rect key="frame" x="82" y="323" width="250" height="250"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="LBE-CK-7az"/>
+                                    <constraint firstAttribute="width" constant="250" id="iR7-fd-0AE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="L2Q-WM-gLH" firstAttribute="centerY" secondItem="u1x-sE-FuE" secondAttribute="centerY" id="8dO-WA-I0x"/>
+                            <constraint firstItem="L2Q-WM-gLH" firstAttribute="centerX" secondItem="u1x-sE-FuE" secondAttribute="centerX" id="YQF-Rv-ntL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FYW-VI-kvH"/>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="L2Q-WM-gLH" id="4EF-pd-E7x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lPP-4E-8g3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-391" y="154"/>
+        </scene>
+    </scenes>
+</document>
